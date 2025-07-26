@@ -87,7 +87,7 @@ We used the following metrics to evaluate model performance:
 ### 🏆 Best Model
 
 - **Model:** Random Forest Regressor  
-- **R² Score:** `0.0.7816`  
+- **R² Score:** `0.7816`  
 - **RMSE:** `28563870.108`  
 - **MAE:** `3664.1695`  
 
