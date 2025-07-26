@@ -59,3 +59,45 @@ This notebook provides an in-depth exploratory data analysis of a car dataset, i
 ### Main Columns:
 - **Numerical:** Price, Levy, Production Year, Engine Volume, Mileage, Cylinders, Doors, Airbags
 - **Categorical:** Manufacturer, Model, Category, Fuel Type, Gearbox Type, Drive Wheels, Interior, Wheel position, Color
+
+## 🤖 Machine Learning Models & Results
+
+After completing the exploratory data analysis (EDA), we trained several machine learning models to predict car prices based on both numerical and categorical features.
+
+### 🔍 Models Applied
+
+- **Linear Regression**
+- **Polynomial Regression**
+- **Lasso Regression**
+- **Ridge Regression**
+- **SVR**
+- **Random Forest Regressor**
+- **KNN Regression**
+- **Decision Tree Regressor**
+- **MLP Regression**
+
+### 🧪 Evaluation Metrics
+
+We used the following metrics to evaluate model performance:
+
+- Root Mean Squared Error (RMSE)
+- Mean Absolute Error (MAE)
+- R² Score
+
+### 🏆 Best Model
+
+- **Model:** Random Forest Regressor  
+- **R² Score:** `0.0.7816`  
+- **RMSE:** `28563870.108`  
+- **MAE:** `3664.1695`  
+
+This model outperformed others due to its ability to handle non-linear relationships and categorical variables effectively without requiring heavy preprocessing.
+
+### 📌 Notes
+
+- Features were encoded and scaled appropriately before modeling.
+- Hyperparameter tuning was done using `GridSearchCV`, `RandomizedSearchCV` for optimized performance.
+- Data was split into 80% training and 20% testing sets.
+
+> The modeling phase added predictive power to the analysis and helped validate the importance of key features such as mileage, production year, engine volume, and car brand.
+> Use Streamlit for Evaluation 
